@@ -28,7 +28,7 @@ public class Main {
         }
         System.out.println("Task3");
         int year = 1582;
-        if (year > 1584 && ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)) {
+        if (year > 1584 && (year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
             System.out.println(year + " год является високосным.");
         } else {
             System.out.println(year + " год является не високосным.");
